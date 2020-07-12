@@ -1,0 +1,168 @@
+<html>
+
+<!-- 贴代码
+
+data里面props定义，我的标签lable设置为index，异步过程就是获取index数据 -->
+
+props: {
+
+label:'index',
+
+children: [],
+
+isLeaf:false
+
+}
+
+<JavaScript>
+
+handleNodeClick(data) {
+
+if (!data.isLeaf) {
+
+console.log('resolve select data')
+
+this.searchForm.yearid = data.year
+
+    this.searchForm.monthid = data.monthid
+
+    this.search()
+
+}
+
+},
+
+loadNode(node, resolve){
+
+if (node.level ===0) {
+
+this.getyearList(resolve)
+
+}
+
+if (node.level >=1) {
+
+this.getmouthByYear(node.data.yearid,resolve)
+
+}
+
+},
+
+<!-- 获取getyearList 就是父节点数据，getmouthByYear就是异步获取子节点数据 -->
+
+getyearList (resolve) {
+
+let url ='zipfile/yearlist'
+
+  this.axios.get(url)
+
+.then(res => {
+
+if (res.data.code ===200) {
+
+let data = res.data.data
+
+        if (data.length ===0) {
+
+this.$message({
+
+message:'请先上传zip文件',
+
+type:'error'
+
+          })
+
+return false
+
+        }
+
+data.forEach(item => {
+
+item.index = item.yearid
+
+          item.isLeaf =true
+
+        })
+
+resolve(data)
+
+}else {
+
+this.$message({
+
+message: res.data.msg,
+
+type:'error'
+
+        })
+
+return false
+
+      }
+
+})
+
+.catch(err => {
+
+console.log(err)
+
+})
+
+}
+
+<!-- resolve里面就是需返回props的数据，因为我props里面的lable标签设置为index，所以我将返回的数据yearid赋值给index，并将data父节点isLeaf置为true。 -->
+
+<javaScript/>
+
+
+获取子节点数据请求
+
+getmouthByYear (yearid,resolve) {
+
+let url ='zipfile/monthlist'
+
+  this.axios.post(url, {yearid:yearid}).then(res => {
+
+if (res.data.code ===200) {
+
+let data = res.data.data
+
+      data.forEach(item => {
+
+if (item.monthid) {
+
+item.year = yearid
+
+item.index = item.monthid
+
+          item.isLeaf =false
+
+        }
+
+})
+
+resolve(data)
+
+}else {
+
+this.$message({
+
+message: res.data.msg,
+
+type:'error'
+
+      })
+
+return false
+
+    }
+
+}).catch(err => {
+
+console.log(err)
+
+})
+
+}
+
+</html>
