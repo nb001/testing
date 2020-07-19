@@ -22,3 +22,46 @@ $("ul:eq("+index+")") 是这样个意思，动态拼接索引值。
 
 
 https://www.runoob.com/jsref/dom-obj-attributes.html
+
+### 插槽的具体用法：
+https://segmentfault.com/a/1190000012996217
+
+拿到一行数据并且做操作
+
+https://blog.csdn.net/sylfffffffff/article/details/97042340?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
+
+
+table常见的属性和事件：
+https://blog.csdn.net/gao_xu_520/article/details/80049254
+
+
+数据多选
+https://www.cnblogs.com/jiangweichao/p/9620940.html
+
+给每条数据添加一个索引
+https://www.cnblogs.com/hpx2020/p/11791103.html
+
+element树形表格 增删改查
+https://blog.csdn.net/a001451/article/details/106523844
+
+新建一个vue项目
+https://www.jianshu.com/p/02b12c600c7b
+
+
+webpack使用教程
+https://www.runoob.com/w3cnote/webpack-tutorial.html
+
+vue关闭代码规范extra semicolon
+https://blog.csdn.net/zyj0209/article/details/89307987
+
+npm 不成功的办法
+
+https://www.cnblogs.com/ning123/p/11108384.html
+
+vue版本过高会导致编译错误
+
+https://www.jianshu.com/p/934de65ce5a6
+
+
+
+
