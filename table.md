@@ -62,6 +62,13 @@ vue版本过高会导致编译错误
 
 https://www.jianshu.com/p/934de65ce5a6
 
+vue数据表格的修改
 
+https://blog.csdn.net/weixin_42614080/article/details/104260026?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~first_rank_v2~rank_v25-2-104260026.nonecase
+
+
+异步请求变为同步请求
+
+https://blog.csdn.net/qq_46124502/article/details/106384588?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
 
 
