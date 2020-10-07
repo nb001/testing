@@ -166,3 +166,33 @@ Satchmo
 
 
   https://www.zhihu.com/question/37792200
+
+  docker history 命令的使用
+  https://www.cnblogs.com/cooper-73/p/9830371.html
+
+  关于docker的木马问题
+  https://www.blog.lijinghua.club/article/180
+
+  docker 的安全接口问题
+
+  http://www.dockerinfo.net/1760.html
+
+  docker TLS配置参数
+  https://www.cnblogs.com/smlile-you-me/p/7524406.html
+
+  ### docker启用TLS进行安全配置
+
+  https://www.cnblogs.com/xiaoqi/p/docker-tls.html
+  https://blog.csdn.net/dounine/article/details/74840080
+  https://blog.csdn.net/m0_47161295/article/details/108842097
+
+  ### docker部署django项目
+
+  https://segmentfault.com/a/1190000017034025
+  https://blog.csdn.net/hbnn111/article/details/77176629
+  https://blog.csdn.net/larger5/article/details/81252773?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+
+
+  ### dockerfile文件详解
+
+  https://blog.csdn.net/swinfans/article/details/84577445
