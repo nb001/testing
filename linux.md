@@ -1,24 +1,4 @@
-### docker
 
-```docker exec -it mysql-test bash```   进入到容器命令
-
-
-```mysql -u root -p```
-
-```Password：Nb123456```
-
-``` docker rmi mysql:8.0 docker ``` 删除某个镜像文件
-
-```docker inspect 0b0d9192ee45```  查看容器相关信息
-```dokcer port 容器名 端口名```    查看容器映射的宿主机端口 
-
-```docker stop containername```停止容器
-``` docker rm containername``` delete container
-``` vim filename ``` use vim to open the filename
-use the keyboard "i" to edit the config files.
-and use the "esc" to quit the configuration status.
-use the shift+: to give the command 
-use the "wq!" to write the files and quit.
 
 
  按ESC键 跳到命令模式，然后：
