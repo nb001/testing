@@ -12,3 +12,7 @@ https://doc.yixiang.co/guide/#%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B
 
 https://blog.csdn.net/wzxxtt62267018/article/details/80018706
 
+
+
+### 序列化器中调用POST方法和PUT方法
+http://www.mamicode.com/info-detail-3048351.html

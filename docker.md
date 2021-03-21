@@ -22,7 +22,7 @@ Satchmo
 
 ```docker exec -it mysql-test bash```   进入到容器命令
 ```docker run -it --name web_demo -p 8000:80  aaa:v1  /bin/bash``` docker根据镜像启动容器并且指定端口
-第一个为宿主机端口 第二个为容器内部端口
+第一个为宿主机端口 第二个为容器内部端口 将容器命名为 web_demo 使用 aaa:v1镜像
 ```mysql -u root -p```
 
 ```Password：Nb123456```
@@ -82,3 +82,7 @@ ctrl + p + q 退出容器但是不结束容器
   ### dockerfile文件详解
 
   https://blog.csdn.net/swinfans/article/details/84577445
+
+
+  ### 80端口被封
+  https://jingyan.baidu.com/article/c910274b909275cd361d2d89.html
